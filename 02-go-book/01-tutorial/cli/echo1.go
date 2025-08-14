@@ -25,4 +25,9 @@ func main() {
 
 	// alternate join operation
 	fmt.Println(strings.Join(os.Args[1:], " "))
+
+	// simplest version
+	fmt.Println(os.Args[1:])
+
+	ex()
 }
