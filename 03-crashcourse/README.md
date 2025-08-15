@@ -1,0 +1,1 @@
+### This is only for getting a highlight of golang in a minimal amount of time
