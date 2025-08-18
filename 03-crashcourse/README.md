@@ -1,7 +1,4 @@
 ### This is only for getting a highlight of golang in a minimal amount of time
-
-**Quick answer:** **I created detailed Markdown notes on Go (Golang)** based on the video "Learn GO Fast: Full Tutorial" and included inline citations to the video where specific points come from.
-
 ---
 
 ## How these notes are structured
@@ -421,6 +418,8 @@ Key pieces shown in the tutorial:
 
 ---
 
+<br>   
+
 ## Summary / Key Takeaways
 
 - **Go is simple, statically typed, compiled, and has built-in concurrency** via goroutines and channels; use the `go` toolchain to build/run projects and `go mod` for dependencies.
@@ -430,13 +429,3 @@ Key pieces shown in the tutorial:
 - **Use slices & maps** correctly, pre-allocate capacity for large workloads, and be mindful of underlying memory / pointer behavior with slices and arrays.
 
 - **Concurrency is powerful but must be used carefully:** coordinate via channels and protect shared memory with mutexes/RWMutex, and use WaitGroups to synchronize goroutines.
-
----
-
-If you want, I can:
-- Provide the same content as a downloadable `.md` file (I will produce the file content ready for download).
-- Generate flashcards or a short quiz based on these notes.
-- Extract specific code examples into separate runnable example files (e.g., a small API repo scaffold).
-- Create a visual flowchart of concurrency patterns using the whiteboard tool.
-
-Which would you like next?
